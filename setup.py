@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 import os
 
 setup(
-    name='test-lib',
+    name='testlib',
     version='0.1',
     packages=find_packages(),
     description='A simple print function',
