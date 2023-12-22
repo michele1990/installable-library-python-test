@@ -4,6 +4,15 @@ a test of simple library for python to be pip installed
 ## Directory Structure
 
 
+```
+mylibrary/
+│
+├── mylibrary/
+│   ├── __init__.py
+│   └── hello.py
+│
+└── setup.py
+```
 
 ## Setup Instructions
 
