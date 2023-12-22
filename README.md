@@ -1,9 +1,9 @@
 # installable-library-python-test
 a test of simple library for python to be pip installed 
 
+## Directory Structure
 
-path:
-
+\```
 mylibrary/
 │
 ├── mylibrary/
@@ -11,14 +11,27 @@ mylibrary/
 │   └── hello.py
 │
 └── setup.py
+\```
 
+## Setup Instructions
 
-mkdir mylibrary
-touch mylibrary/__init__.py
-touch mylibrary/hello.py
-touch setup.py
+1. Create the directory and files:
 
+   \```bash
+   mkdir mylibrary
+   touch mylibrary/__init__.py
+   touch mylibrary/hello.py
+   touch setup.py
+   \```
 
-git clone git@github.com-personal:michele1990/installable-library-python-test.git
+2. Clone the repository:
 
-pip install git+https://github.com/michele1990/installable-library-python-test.git
+   \```bash
+   git clone git@github.com-personal:michele1990/installable-library-python-test.git
+   \```
+
+3. Install the library:
+
+   \```bash
+   pip install git+https://github.com/michele1990/installable-library-python-test.git
+   \```
